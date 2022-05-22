@@ -1,0 +1,41 @@
+.box > h2 {
+  font-family: "Noto Sans KR", sans-serif;
+  font-weight: 900;
+  font-size: 48px;
+  text-align: center;
+}
+
+.box > p {
+  font-family: "Noto Sans KR", sans-serif;
+  font-weight: 900;
+  font-size: 36px;
+  display: block;
+  text-align: center;
+}
+.box > p > span {
+  font-size: 24px;
+}
+
+.box > input {
+  font-family: "Noto Sans KR", sans-serif;
+  font-weight: 900;
+  display: block;
+  text-align: center;
+  width: 300px;
+  height: 50px;
+  margin: 0 auto;
+}
+
+.select {
+  font-family: "Noto Sans KR", sans-serif;
+  font-weight: 900;
+  display: block;
+  margin: 0 auto;
+  padding: 10px;
+}
+
+.option {
+  display: block;
+  text-align: center;
+  width: 300px;
+}

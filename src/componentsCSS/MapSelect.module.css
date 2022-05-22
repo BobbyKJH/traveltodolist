@@ -1,0 +1,20 @@
+.box {
+  display: block;
+  text-align: center;
+}
+
+.continent {
+  display: inline-block;
+  border: 1px solid black;
+  margin: 20px 20px;
+  width: 200px;
+}
+
+.continent > img {
+  width: 200px;
+  height: 130px;
+}
+
+.continent > p {
+  margin: 0;
+}
