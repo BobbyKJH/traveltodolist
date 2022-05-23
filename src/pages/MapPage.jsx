@@ -1,5 +1,5 @@
 import React from "react";
-import styles from "../pageCSS/MapPage.module.css";
+import styles from "./MapPage.module.css";
 import Nav from "../components/Nav";
 import Map from "../components/map/Map";
 

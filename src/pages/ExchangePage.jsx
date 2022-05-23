@@ -1,5 +1,5 @@
 import React from "react";
-import styles from "../pageCSS/ExchangePage.module.css";
+import styles from "./ExchangePage.module.css";
 import Exchage from "../components/exchange/Exchage";
 import Nav from "../components/Nav";
 

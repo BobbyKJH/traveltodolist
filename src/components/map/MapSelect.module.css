@@ -16,5 +16,7 @@
 }
 
 .continent > p {
+  font-family: "Noto Sans KR", sans-serif;
+  font-weight: 900;
   margin: 0;
 }

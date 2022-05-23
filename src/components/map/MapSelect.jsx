@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import styles from "../../componentsCSS/MapSelect.module.css";
+import styles from "./MapSelect.module.css";
 
 export default function ContinentSelect({ country }) {
   const [continent, setContinent] = useState([]);
@@ -9,9 +9,8 @@ export default function ContinentSelect({ country }) {
       .then((response) => response.json())
       .then((json) => {
         setContinent(json.data);
-        console.log(json.data);
       });
-  }, []);
+  }, [country]);
   return (
     <div className={styles.box}>
       {continent.map((map) => (

@@ -1,5 +1,5 @@
 import React, { useState, useEffect, useRef } from "react";
-import styles from "../../componentsCSS/Exchange.module.css";
+import styles from "./Exchange.module.css";
 
 export default function Exchage() {
   const [exchangeList, setExchangeList] = useState([]);

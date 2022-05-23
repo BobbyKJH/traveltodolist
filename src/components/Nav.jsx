@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import styles from "../componentsCSS/Nav.module.css";
+import styles from "./Nav.module.css";
 
 export default function Nav() {
   return (
@@ -14,11 +14,11 @@ export default function Nav() {
           계획
         </Link>
         {/* 2 */}
-        <Link to="/" className={styles.menuLink}>
-          추천
+        <Link to="/map" className={styles.menuLink}>
+          나라
         </Link>
         {/* 3 */}
-        <Link to="/map" className={styles.menuLink}>
+        <Link to="/continent" className={styles.menuLink}>
           지도
         </Link>
         {/* 4 */}
