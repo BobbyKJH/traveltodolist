@@ -7,12 +7,10 @@ export default function Map() {
 
   const Asia = () => {
     setAsia("https://bobbykjh.github.io/json/asia.json");
-    console.log(asia);
   };
 
   const EU = () => {
     setAsia("https://bobbykjh.github.io/json/eu.json");
-    console.log(asia);
   };
 
   const Africa = () => {

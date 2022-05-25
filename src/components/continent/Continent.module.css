@@ -1,23 +1,32 @@
 .btnBox {
-  text-align: center;
   display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .btn {
-  border-radius: 50%;
-  background-color: aqua;
-  display: inline-block;
-  width: 300px;
-  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0px 10px;
+  border-radius: 150px;
+  width: 250px;
+  height: 250px;
 }
-.btr {
+.btn div {
+  font-family: "Noto Sans KR", sans-serif;
+  font-weight: 900;
   display: flex;
   justify-content: center;
   align-items: center;
   background-color: #fff;
-  z-index: 11;
-  /* margin: 0; */
-  width: 200px;
-  height: 200px;
-  border-radius: 50%;
+  border-radius: 100px;
+  width: 190px;
+  height: 190px;
+}
+.continent {
+  display: flex;
+  justify-content: center;
+  width: 100vw;
+  margin: 0 auto;
 }
