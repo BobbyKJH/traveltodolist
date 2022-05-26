@@ -27,7 +27,7 @@ export default function Nav() {
         </Link>
         {/* 5 */}
         <Link to="/" className={styles.menuLink}>
-          로그인 / 회원가입
+          로그인
         </Link>
       </div>
     </div>
